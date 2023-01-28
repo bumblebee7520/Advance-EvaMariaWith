@@ -11,7 +11,11 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Sahil Movies Bot I can give you Movies & Series 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<b>𝙷𝙴𝙻𝙾 {} 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝚂𝙰𝙷𝙸𝙻 𝙼𝙾𝚅𝙸𝙴𝚂 𝙱𝙾𝚃😌, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 & 𝚆𝙴𝙱 𝚂𝙴𝚁𝙸𝙴𝚂,𝚂𝙾 𝙹𝙾𝙸𝙽 𝙼𝚈 𝙶𝚁𝙾𝚄𝙿 & 𝙴𝙽𝙹𝙾𝚈 𝙰𝙻𝙻 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚆𝙴𝙱 𝚂𝙷𝙾𝚆𝚂.❤️
+
+💥 𝙼𝚢 𝙶𝚛𝚘𝚞𝚙 :- @chat_official_sahil ⚠️
+
+😎 𝙼𝚢 𝙾𝚠𝚗𝚎𝚛 :- @itz_sahil_official 🌟.</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
